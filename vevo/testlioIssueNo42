@@ -1,0 +1,20 @@
+[ios][favourites] add to playlist not seen on overflow
+Feature: Video Player
+1 [IOS][Favourites]add to playlist option not seen in overflow
+
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Steps to reproduce:
+1. Favourites>watch history>go to any videos selected>overflow>no option of add to playlist seen
+Expected result:
+overflow - add to playlist should be seen
+Actual result:
+overflow-add to playlist not seen
+
+

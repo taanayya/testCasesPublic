@@ -1,0 +1,22 @@
+[IOS][Favourites] Application Crashes after a series of operation on playlists
+Feature: Favorites/Playlists
+Feature: Favourites
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Steps to reproduce:
+Steps to reproduce:
+1. Create multiple playlist
+2. Do random operation Like edit names and delete playlist
+3. After few attempts application will crash on rename
+
+Expected result:
+Rename should not crash application
+
+Actual result:
+Application crashes

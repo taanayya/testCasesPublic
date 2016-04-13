@@ -1,0 +1,21 @@
+[IOS][Favourites] Application crashes while browse artist is clicked while adding an artist through youtube.
+Feature: Favorites/Artists
+1 [IOS][Favourites] Application crashes while browse artist is clicked while adding an artist through youtube.
+
+Feature: Favourites
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Steps to reproduce:
+1. Favourites> add artist> connect youtube>on getting the notification disconnect you tube,hit cancel>click browse artist
+
+Expected result:
+The app should never crash.
+
+Actual result:
+The app crashes.

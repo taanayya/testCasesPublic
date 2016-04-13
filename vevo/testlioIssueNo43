@@ -1,0 +1,26 @@
+[ios] [playlist]playlists cant be edited
+Feature: Video Player
+[ios] [playlist]playlists cant be edited
+Feature: playlist
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Steps to reproduce:
+1. playlist> rearrange songs (drag up and down from left)
+remove songs from the list (swipe right to left)
+undo remove
+
+Expected result:
+Should be able to rearrange,remove songs and undo remove
+
+Actual result:
+Rearranging,removing songs and undo removing doesnot work
+
+
+
+

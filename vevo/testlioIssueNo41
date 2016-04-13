@@ -1,0 +1,21 @@
+[ios][favourites]application crashes while we scroll through previous/next button once we get a no content video
+Feature: Video Player
+1 [IOS][Favourites] Application crashes while scrolling through previous/next button once a no content video is there in middle
+
+Feature: Favourites
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Steps to reproduce:
+1. Favourites> watch history>scroll through the previous/next button>once a no content video lines up ,app crashes
+
+Expected result:
+The app should never crash.
+
+Actual result:
+The app crashes.

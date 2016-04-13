@@ -1,0 +1,26 @@
+ [ios][favourites] deletion of last playlist fails
+Feature: Favorites/Playlists
+Environment:
+Device and OS:
+Testable App version:
+Network:
+Location:
+Reproducibility rate:
+
+Steps to reproduce:
+Feature: Favourites
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Create multiple playlists
+Try deleting them one by one
+Expected result:
+All playlist should be deletable
+
+Actual result:
+Last playlist doesnt get deleted even after trying multiple times.

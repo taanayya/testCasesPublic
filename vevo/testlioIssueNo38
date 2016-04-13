@@ -1,0 +1,20 @@
+[ios][favourites] duplicate playlists with same name can be created
+Feature: Favorites/Playlists
+1 [IOS][Favourites] d.uplicate playlists with same name can be created
+
+Feature: Favourites
+Environment:
+Device and OS: Iphone6(64 GB)
+ios version -9.3
+Testable App version: 5.0.7
+Network: wifi
+Location: Sfo
+Reproducibility rate: 5/5
+
+Steps to reproduce:
+1. Favourites> create new playlist from anywhere> again create a playlist with same name
+Expected result:
+It should at least give a warning that same playlist already exists
+
+Actual result:
+It creates a playlist with same name .
